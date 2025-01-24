@@ -1,0 +1,112 @@
+{
+  "posts": {
+    "id1": {
+      "title": "Ford Mustang Mach-e",
+      "slug": "primer-post",
+      "image_url": "https://www.tuningblog.eu/wp-content/uploads/2021/07/Ford-Mustang-Mach-E-auf-Forgiato-Felgen-5.jpg",
+      "content": "El precio del Ford Mustang Mach-E varía según la versión y equipamiento, pero el modelo base tiene un precio aproximado de 50,000 euros. Las versiones más equipadas pueden llegar hasta los 70,000 euros."
+    },
+    "id2": {
+      "title": "Tesla Model S Plaid",
+      "slug": "segundo-post",
+      "image_url": "https://www.tesla.com/sites/default/files/blog_images/model_s_plaid_hero.jpg",
+      "content": "El Tesla Model S Plaid es uno de los vehículos eléctricos más rápidos del mundo, con una velocidad de 0 a 100 km/h en menos de 2 segundos."
+    },
+    "id3": {
+      "title": "Porsche Taycan Turbo S",
+      "slug": "tercer-post",
+      "image_url": "https://www.porsche.com/mediakit/taycan/2021/taycan-turbo-s-hero.jpg",
+      "content": "El Porsche Taycan Turbo S combina la elegancia de la marca con un rendimiento eléctrico impresionante, alcanzando los 100 km/h en 2.8 segundos."
+    },
+    "id4": {
+      "title": "Audi e-tron GT",
+      "slug": "cuarto-post",
+      "image_url": "https://www.audi.com/mediacenter/e-tron-gt/2021/audi-etron-gt-hero.jpg",
+      "content": "El Audi e-tron GT es un vehículo eléctrico de lujo con un diseño futurista y un rendimiento impresionante que lo convierte en una opción destacada para los entusiastas de los autos eléctricos."
+    },
+    "id5": {
+      "title": "BMW i4",
+      "slug": "quinto-post",
+      "image_url": "https://www.bmw.com/content/dam/bmw/marketBMWcom/bmw_com/all-models/i-series/i4/2021/bmw-i4-hero.jpg",
+      "content": "El BMW i4 es un sedán eléctrico que ofrece un rendimiento excepcional y una experiencia de conducción dinámica, combinando elegancia y sostenibilidad."
+    },
+    "id6": {
+      "title": "Mercedes-Benz EQS",
+      "slug": "sexto-post",
+      "image_url": "https://media.mercedes-benz.com/media-library/media/vehicle-types/eqs/eqs-2021.jpg",
+      "content": "El EQS de Mercedes-Benz es el automóvil eléctrico de lujo de la marca, con una autonomía impresionante y un interior lleno de tecnología de última generación."
+    },
+    "id7": {
+      "title": "Rivian R1T",
+      "slug": "septimo-post",
+      "image_url": "https://www.rivian.com/assets/imgs/r1t/hero.jpg",
+      "content": "El Rivian R1T es una camioneta eléctrica diseñada para aventuras al aire libre, combinando un rendimiento robusto con la sostenibilidad del motor eléctrico."
+    },
+    "id8": {
+      "title": "Lucid Air",
+      "slug": "octavo-post",
+      "image_url": "https://www.lucidmotors.com/assets/img/hero/hero-lucid-air.jpg",
+      "content": "El Lucid Air es un sedán eléctrico de lujo que destaca por su autonomía excepcional y un rendimiento que rivaliza con los mejores autos deportivos."
+    },
+    "id9": {
+      "title": "Chevrolet Bolt EV",
+      "slug": "noveno-post",
+      "image_url": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/2022/bolt-ev/2022-chevrolet-bolt-ev-hero.jpg",
+      "content": "El Chevrolet Bolt EV es un vehículo eléctrico compacto con un excelente rango y un precio asequible, ideal para quienes buscan una opción económica y ecológica."
+    },
+    "id10": {
+      "title": "Nissan Leaf",
+      "slug": "decimo-post",
+      "image_url": "https://www.nissan-global.com/EN/DOCUMENT/PDF/VEHICLES/LEAF/2021/leaf-hero.jpg",
+      "content": "El Nissan Leaf sigue siendo uno de los vehículos eléctricos más populares del mercado, con una autonomía sólida y un enfoque en la accesibilidad y la sostenibilidad."
+    },
+    "id11": {
+      "title": "Hyundai Kona Electric",
+      "slug": "onceavo-post",
+      "image_url": "https://www.hyundai.com/content/dam/hyundai/na/en/images/kona-electric/2021/kona-electric-hero.jpg",
+      "content": "El Hyundai Kona Electric ofrece una excelente autonomía y características de seguridad avanzadas en un SUV eléctrico compacto."
+    },
+    "id12": {
+      "title": "Kia e-Niro",
+      "slug": "doceavo-post",
+      "image_url": "https://www.kia.com/content/dam/kiamotors/global/en/images/e-niro/2021/kia-e-niro-hero.jpg",
+      "content": "El Kia e-Niro es un SUV eléctrico versátil con un diseño atractivo y un rendimiento excelente para aquellos que buscan un vehículo eléctrico práctico y ecológico."
+    },
+    "id13": {
+      "title": "Jaguar I-Pace",
+      "slug": "treceavo-post",
+      "image_url": "https://media.jaguar.com/content/dam/jaguar/vehicles/i-pace/i-pace-hero.jpg",
+      "content": "El Jaguar I-Pace es un SUV eléctrico de lujo que combina un diseño elegante con un rendimiento impresionante y una tecnología avanzada."
+    },
+    "id14": {
+      "title": "Mini Cooper SE",
+      "slug": "catorceavo-post",
+      "image_url": "https://www.mini.com/content/dam/mini/region/international/models/cooper-se-hero.jpg",
+      "content": "El Mini Cooper SE es un coche eléctrico compacto que ofrece una conducción divertida y eficiente en un paquete de diseño icónico."
+    },
+    "id15": {
+      "title": "Volvo XC40 Recharge",
+      "slug": "quinceavo-post",
+      "image_url": "https://www.volvocars.com/images/hero/xc40-recharge-2021.jpg",
+      "content": "El Volvo XC40 Recharge es un SUV eléctrico con un enfoque en la sostenibilidad, la seguridad y el rendimiento, ideal para familias."
+    },
+    "id16": {
+      "title": "Ford F-150 Lightning",
+      "slug": "dieciseisavo-post",
+      "image_url": "https://www.ford.com/content/dam/fordmedia/fordcom/2022/f150-lightning-hero.jpg",
+      "content": "El Ford F-150 Lightning es una camioneta eléctrica potente y resistente, diseñada para ofrecer el mismo rendimiento que el modelo tradicional con cero emisiones."
+    },
+    "id17": {
+      "title": "Toyota bZ4X",
+      "slug": "diecisieteavo-post",
+      "image_url": "https://www.toyota.com/content/dam/toyota/us/2022/bz4x/bz4x-hero.jpg",
+      "content": "El Toyota bZ4X es el primer SUV eléctrico de Toyota, con un diseño futurista y una autonomía impresionante para viajes largos."
+    },
+    "id18": {
+      "title": "Subaru Solterra",
+      "slug": "dieciochoavo-post",
+      "image_url": "https://www.subaru-global.com/images/solterra-2022.jpg",
+      "content": "El Subaru Solterra es un SUV eléctrico diseñado para la aventura, con tracción en las cuatro ruedas y una excelente autonomía para todo tipo de condiciones."
+    }
+  }
+}

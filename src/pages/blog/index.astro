@@ -1,0 +1,47 @@
+---
+// Importar el componente Header
+import Header from '../../components/Header.astro';
+// Importar el archivo JSON de los posts
+import postsData from '../../lib/posts.json';
+
+// Convertir el objeto en un array de posts
+const posts = Object.values(postsData.posts) as Array<{
+  title: string;
+  slug: string;
+  image_url: string;
+  content: string;
+}>;
+---
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Blog de noticias sobre coches." />
+    <title>Mi Blog de Coches</title>
+    <link rel="stylesheet" href="/global.css" />
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <Header />
+
+    <div class="container">
+      <h1>Bienvenidos a mi Blog de Coches</h1>
+      <p>En este blog encontrarás información sobre los últimos modelos y noticias del mundo del motor.</p>
+
+      <!-- Lista de posts -->
+      <h2>Últimos Posts</h2>
+      <ul>
+        {posts.map((post) => (
+          <li>
+            <a href={`/blog/${post.slug}`} class="text-xl font-semibold">
+              {post.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+      
+    </div>
+  </body>
+</html>

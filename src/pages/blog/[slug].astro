@@ -1,0 +1,47 @@
+---
+// src/pages/blog/[slug].astro
+import { getFirestore, doc, getDoc } from "firebase/firestore";
+import { db } from "../../lib/firebase"; // Ruta a la configuración de Firebase
+
+const { slug } = Astro.params;
+
+// Obtén los detalles del post utilizando el slug
+const postRef = doc(db, "posts", slug);
+const postSnapshot = await getDoc(postRef);
+
+if (!postSnapshot.exists()) {
+  throw new Error('Post no encontrado');
+}
+
+const post = postSnapshot.data();
+---
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{post.title} - Blog de Coches Eléctricos</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/global.css">
+  </head>
+  <body>
+    <header>
+      <h1>Blog de Coches Eléctricos</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/blog">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h2>{post.title}</h2>
+        <img src={post.image_url} alt={post.title} />
+        <p>{post.content}</p>
+      </article>
+    </main>
+  </body>
+</html>
